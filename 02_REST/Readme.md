@@ -14,13 +14,13 @@
 ## Deliverables 
 - Review Rest   
 
-| HTTP Verb 	|       Path       	| Controler#Action   	|
+| HTTP Verb 	|       Path       	| Controller#Action   	|
 |-----------	|:----------------:	|--------------------	|
 | GET       	|   /productions   	| productions#index  	|
 | GET       	| /productions/:id 	| productions#show   	|
 | POST      	|   /productions   	| productions#create 	|
 | PATCH/PUT 	| /productions/:id 	| productions#update 	|
-| DELETE    	| /productions/:id 	| productions#delete 	|
+| DELETE    	| /productions/:id 	| productions#destroy 	|
 
 
 
