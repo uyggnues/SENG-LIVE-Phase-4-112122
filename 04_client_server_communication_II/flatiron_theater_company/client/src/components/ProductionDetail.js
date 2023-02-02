@@ -14,7 +14,7 @@ function ProductionDetail({deleteProduction}) {
       if(res.ok){
         res.json().then(data => setProduction(data))
       } else {
-        res.json().then(data => setErrors(data.error))
+        res.json().then(data => console.log(data.error))
       }
     })
   },[])
