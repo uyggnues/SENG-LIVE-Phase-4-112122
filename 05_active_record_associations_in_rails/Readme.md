@@ -6,8 +6,8 @@
 - [ ] Explain the purpose of serializers
 - [ ] Observe how serializers are used to shape json data
 
-Users -< Tickets > Producitons 
-![associations.png](assets/associations.png)
+Users -< Tickets > Users -< Tickets > Productions 
+![associations.png](assets/associations_fixed.png)
 
 ## Deliverables
 - Demo migrations and foreign keys
